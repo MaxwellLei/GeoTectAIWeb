@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="Project DescriptionThis project is based on the MVVM architecture, using WPF development technology, and relies on the .NET7 framework. You can download and use it through the Releases section. The pr">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Explanation of the GeoTectAI project">
+<meta property="og:url" content="http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/index.html">
+<meta property="og:site_name" content="GeoTect">
+<meta property="og:description" content="Project DescriptionThis project is based on the MVVM architecture, using WPF development technology, and relies on the .NET7 framework. You can download and use it through the Releases section. The pr">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/26ec2b65-765a-42c1-883a-d7cc79955460">
+<meta property="og:image" content="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/27b6a083-63a2-4f85-8534-3d17fc2c08f2">
+<meta property="og:image" content="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/68d9508f-c6a1-4047-89aa-7761a75c2908">
+<meta property="og:image" content="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/116d1065-a64c-448b-a495-5246da3ecea1">
+<meta property="article:published_time" content="2024-09-17T04:36:46.420Z">
+<meta property="article:modified_time" content="2024-09-26T02:48:29.347Z">
+<meta property="article:author" content="Maxwell Lei">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/26ec2b65-765a-42c1-883a-d7cc79955460">
+    
+    
+        
+          
+              <link rel="shortcut icon" href="/images/favicon.ico">
+          
+        
+        
+          
+            <link rel="icon" type="image/png" href="/images/favicon-192x192.png" sizes="192x192">
+          
+        
+        
+          
+            <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+          
+        
+    
+    <!-- title -->
+    <title>Explanation of the GeoTectAI project</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+    
+<link rel="stylesheet" href="/lib/meslo-LG/styles.css">
+
+    
+<link rel="stylesheet" href="/lib/justified-gallery/justifiedGallery.min.css">
+
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- rss -->
+    
+    
+    <!-- jquery -->
+    
+<script src="/lib/jquery/jquery.min.js"></script>
+
+<meta name="generator" content="Hexo 7.3.0"></head>
+
+<body>
+    <div class="banner">
+<div id="blogtitel" class="blogtitel">GeoTect</div>
+<ul id="wrapper" class="wrapper">
+  <div class="sun">
+    <div class="star"></div>
+  </div>
+  <div class="mercury">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="venus">
+    <div class="planet">
+      <div class="shadow"></div>
+    </div>
+  </div>
+  <div class="earth">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="mars">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+  <div class="jupiter">
+    <div class="planet"><div class="shadow"></div></div>
+  </div>
+</ul>
+</div>
+
+    <div class="background">
+      
+        <div id="header-post">
+  <a id="menu-icon" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#"><i class="fa fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fa fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI">GeoTectAI Projects</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI_CNN">GeoTectAI_CNN Projects</a></li>
+        
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" href="/2024/09/26/Explanation%20of%20the%20GeoTectAI_CNN%20project/"><i class="fa fa-chevron-left" aria-hidden="true" onmouseover='$("#i-prev").toggle();' onmouseout='$("#i-prev").toggle();'></i></a></li>
+        
+        
+        <li><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up" aria-hidden="true" onmouseover='$("#i-top").toggle();' onmouseout='$("#i-top").toggle();'></i></a></li>
+        <li><a class="icon" href="#"><i class="fa fa-share-alt" aria-hidden="true" onmouseover='$("#i-share").toggle();' onmouseout='$("#i-share").toggle();' onclick='$("#share").toggle();return false;'></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/"><i class="fa fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&text=Explanation of the GeoTectAI project"><i class="fa fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&is_video=false&description=Explanation of the GeoTectAI project"><i class="fa fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Explanation of the GeoTectAI project&body=Check out this article: http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/"><i class="fa fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&name=Explanation of the GeoTectAI project&description="><i class="fa fa-tumblr " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Project-Description"><span class="toc-number">1.</span> <span class="toc-text">Project Description</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Machine-learning-models"><span class="toc-number">2.</span> <span class="toc-text">Machine learning models</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Datasets"><span class="toc-number">2.1.</span> <span class="toc-text">Datasets</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#About-the-code-to-train-the-model"><span class="toc-number">2.2.</span> <span class="toc-text">About the code to train the model</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Batch-prediction"><span class="toc-number">2.3.</span> <span class="toc-text">Batch prediction</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%92%A1Project-Principle"><span class="toc-number">3.</span> <span class="toc-text">💡Project Principle</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%8C%B9Project-Screenshots"><span class="toc-number">4.</span> <span class="toc-text">🌹Project Screenshots</span></a></li></ol>
+    </div>
+  </span>
+</div>
+
+      
+      <div class="content index width mx-auto px2 my4">
+          
+          <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Explanation of the GeoTectAI project
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">GeoTect</span>
+      </span>
+      
+    <div class="postdate">
+        <time datetime="2024-09-17T04:36:46.420Z" itemprop="datePublished">2024-09-17</time>
+    </div>
+
+
+      
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <h1 id="Project-Description"><a href="#Project-Description" class="headerlink" title="Project Description"></a>Project Description</h1><p>This project is based on the MVVM architecture, using WPF development technology, and relies on the <code>.NET7</code> framework. You can download and use it through the Releases section. The project is <strong>based on the whole-rock geochemistry of igneous rocks to predict their corresponding tectonic settings</strong>.</p>
+<p>Thanks to the following project dependency libraries. If you want to compile or develop this project further, please install the following libraries first.</p>
+<ul>
+<li><a target="_blank" rel="noopener" href="https://www.nuget.org/packages/CommunityToolkit.Mvvm">CommunityToolkit.Mvvm</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.epplussoftware.com/">EPPlus</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.ookii.org/software/dialogs/">Ookii.Dialogs</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.nuget.org/packages/Microsoft.Extensions.Hosting/">Microsoft.Extensions.Hosting</a></li>
+<li><a target="_blank" rel="noopener" href="https://www.nuget.org/packages/Microsoft.Xaml.Behaviors.Wpf">Microsoft.Xaml.Behaviors.Wpf</a></li>
+<li><a target="_blank" rel="noopener" href="https://wpfui.lepo.co/index.html">WPF-UI</a></li>
+<li><a target="_blank" rel="noopener" href="https://github.com/beto-rodriguez/LiveCharts2">LiveCharts2</a></li>
+</ul>
+<p>You can find the software installation package in Releases, with naming instructions:</p>
+<ul>
+<li><strong>DependencyFramework_FullPlatform</strong> means that it can <strong>run on Windows, Linux, MacOS</strong>, but <strong>dependent The <code>.NET7</code>framework</strong> means that if you wish to run this program you need to download and install it first <code>.NET7</code> framework.</li>
+<li><strong>independence_win_x86</strong> means that it runs only on the Windows platform and does not depend on the <code>.NET7</code> framework can be downloaded and unzipped directly to run.</li>
+</ul>
+<p>If you have any bugs in the process of use, you can leave a message under <strong>Issues</strong> of the project.</p>
+<blockquote>
+<p>Project Agreement: <a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI/tree/v1.0.0.0#">Apache-2.0 license</a></p>
+</blockquote>
+<h1 id="Machine-learning-models"><a href="#Machine-learning-models" class="headerlink" title="Machine learning models"></a>Machine learning models</h1><h2 id="Datasets"><a href="#Datasets" class="headerlink" title="Datasets"></a>Datasets</h2><p>The project training machine learning model data comes from two large geochemical databases <a target="_blank" rel="noopener" href="http://www.earthchem.org/petdb">PetDB</a> and <a target="_blank" rel="noopener" href="http://georoc.mpch-mainz.gwdg.de/georoc/">GEOROC</a> (🌹<strong>Thanks to the database and many researchers for providing data support</strong>🌹), the training data set of this project is stored in the <code>DataSet</code> file of the project.</p>
+<blockquote>
+<p>If you have any other needs or questions, please contact me by private message.</p>
+</blockquote>
+<h2 id="About-the-code-to-train-the-model"><a href="#About-the-code-to-train-the-model" class="headerlink" title="About the code to train the model"></a>About the code to train the model</h2><p>The code to train the model, neural network, convert to ONNX format, and package EXE will be stored in the <code>Python</code> folder.</p>
+<blockquote>
+<p>⚠️Please note: When calling the code, please make sure you have installed the relevant <code>Python</code> package dependencies</p>
+</blockquote>
+<h2 id="Batch-prediction"><a href="#Batch-prediction" class="headerlink" title="Batch prediction"></a>Batch prediction</h2><ol>
+<li><p>Batch prediction import file <strong>only supports <code>Excel</code> type files</strong> (for example <code>.xlsx</code>). After importing the file, the <strong>default first line is the title line</strong>, and the read data will **try to automatically match Attribute **, the content in the title row will be retrieved, **is not case-sensitive to match the names corresponding to geochemical elements (only relevant element strings are included) **, please check whether all match when making batch predictions On the list. The default is fuzzy matching, which will determine whether the list name contains a string corresponding to the geochemical element for matching. Compared with strict matching, it is more flexible. You can modify the matching mode through settings.</p>
+</li>
+<li><p>If a column is incorrectly matched, for example: the value of the <code>La</code> element is incorrectly matched to a <code>String</code> type column, it will be converted to <code>0f</code> by default and the prediction will continue with a warning message.</p>
+</li>
+<li><p>After the batch prediction is successful, a column named <code>pre_name</code> will be added to the far right of the table. This column is the prediction results. These prediction results will be automatically mapped to the corresponding structural categories (not including the discrimination probability value).</p>
+<blockquote>
+<p>⚠️: Please make sure that the header row of your imported <code>Excel</code> type file does not have a column header named <code>pre_name</code>, otherwise the content of the column will be overwritten after prediction.</p>
+</blockquote>
+</li>
+<li><p>The export of batch prediction results only supports the <code>.xlsx</code> type. After export, the file will be in the <code>Data_OutPut</code> folder under the installation path of the software (if there is no such folder, the software will automatically create it). The export file name is The exported time is converted to <code>SHA</code> to name. You can directly locate the exported file by opening the file location.</p>
+</li>
+</ol>
+<h1 id="💡Project-Principle"><a href="#💡Project-Principle" class="headerlink" title="💡Project Principle"></a>💡Project Principle</h1><ol>
+<li>First use <code>Python</code> to train machine learning models.</li>
+<li>Then package and read the <code>EXE</code> of the machine learning model, pass in the parameters, and return the results.</li>
+<li>Use WPF to do the front-end of the software and some read verification, the prediction process calls <code>EXE</code> and returns the result.</li>
+</ol>
+<blockquote>
+<p>🤔: Regarding why I chose to use this method, I initially tried to use Microsoft’s onnx library to directly call the trained model file, so that I didn’t need to go through Python to fiddle with it. After trying it, I found that this method would make my software The size is doubled. Compared with directly using Python to write an intermediate EXE and then calling it, a lot of space can be left.</p>
+<p>🧐: If you ask me why I don’t consider using <code>PyQT</code> to write directly, this is very good in terms of efficiency and development speed. On the one hand, I have been using <code>C#</code> for a longer time and am more familiar with it. On the other hand, I think the interface written in <code>WPF</code> is more beautiful and flexible than <code>PyQT</code>.</p>
+</blockquote>
+<h1 id="🌹Project-Screenshots"><a href="#🌹Project-Screenshots" class="headerlink" title="🌹Project Screenshots"></a>🌹Project Screenshots</h1><p><img src="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/26ec2b65-765a-42c1-883a-d7cc79955460" alt="image"></p>
+<p><img src="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/27b6a083-63a2-4f85-8534-3d17fc2c08f2" alt="image"></p>
+<p><img src="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/68d9508f-c6a1-4047-89aa-7761a75c2908" alt="image"></p>
+<p><img src="https://github.com/MaxwellLei/GeoTectAI/assets/57181782/116d1065-a64c-448b-a495-5246da3ecea1" alt="image"></p>
+
+  </div>
+</article>
+
+
+
+      </div>
+      
+       <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI">GeoTectAI Projects</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI_CNN">GeoTectAI_CNN Projects</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#Project-Description"><span class="toc-number">1.</span> <span class="toc-text">Project Description</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#Machine-learning-models"><span class="toc-number">2.</span> <span class="toc-text">Machine learning models</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Datasets"><span class="toc-number">2.1.</span> <span class="toc-text">Datasets</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#About-the-code-to-train-the-model"><span class="toc-number">2.2.</span> <span class="toc-text">About the code to train the model</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Batch-prediction"><span class="toc-number">2.3.</span> <span class="toc-text">Batch prediction</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%92%A1Project-Principle"><span class="toc-number">3.</span> <span class="toc-text">💡Project Principle</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%F0%9F%8C%B9Project-Screenshots"><span class="toc-number">4.</span> <span class="toc-text">🌹Project Screenshots</span></a></li></ol>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/"><i class="fa fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&text=Explanation of the GeoTectAI project"><i class="fa fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&is_video=false&description=Explanation of the GeoTectAI project"><i class="fa fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Explanation of the GeoTectAI project&body=Check out this article: http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&title=Explanation of the GeoTectAI project"><i class="fa fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=http://example.com/2024/09/17/Explanation%20of%20the%20GeoTectAI%20project/&name=Explanation of the GeoTectAI project&description="><i class="fa fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+      <ul>
+        <li id="toc"><a class="icon" href="#" onclick='$("#toc-footer").toggle();return false;'><i class="fa fa-list fa-lg" aria-hidden="true"></i> TOC</a></li>
+        <li id="share"><a class="icon" href="#" onclick='$("#share-footer").toggle();return false;'><i class="fa fa-share-alt fa-lg" aria-hidden="true"></i> Share</a></li>
+        <li id="top" style="display:none"><a class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a></li>
+        <li id="menu"><a class="icon" href="#" onclick='$("#nav-footer").toggle();return false;'><i class="fa fa-bars fa-lg" aria-hidden="true"></i> Menu</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+      
+      <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy; 2024 Maxwell Lei
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI">GeoTectAI Projects</a></li>
+         
+          <li><a target="_blank" rel="noopener" href="https://github.com/MaxwellLei/GeoTectAI_CNN">GeoTectAI_CNN Projects</a></li>
+        
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+      
+<script src="/lib/justified-gallery/jquery.justifiedGallery.min.js"></script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- Google Analytics -->
+
+<!-- Disqus Comments -->
+
+
+    </div>
+</body>
+</html>
