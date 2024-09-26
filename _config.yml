@@ -102,5 +102,5 @@ theme: solar
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: https://github.com/MaxwellLei/GeoTectWeb.git
+  repo: https://github.com/MaxwellLei/GeoTectWeb.io
   branch: gh-pages
