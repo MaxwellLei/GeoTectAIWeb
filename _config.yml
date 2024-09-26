@@ -104,3 +104,12 @@ deploy:
   type: git
   repo: https://github.com/MaxwellLei/GeoTectAIWeb.git
   branch: main
+  
+# 谷歌分析
+analytics:
+    google_analytics:
+        enable: true
+        measurement_id: G-2QTK07XY87
+    microsoft_clarity:
+        enable: false
+        project_id: <your project id under Setting, Overview>

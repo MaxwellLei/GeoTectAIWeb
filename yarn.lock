@@ -574,6 +574,11 @@
   dependencies:
     "function-bind" "^1.1.2"
 
+"hexo-analytics@^0.1.1":
+  "integrity" "sha512-WJK/HowOOpmR8MDQN8L42+5635qYRqtVPn64xPCd3mSN0HYJ+9HbizjoDUDb2ll3Zlb8MLqix8GF5N7fgVbK1w=="
+  "resolved" "https://registry.npmjs.org/hexo-analytics/-/hexo-analytics-0.1.1.tgz"
+  "version" "0.1.1"
+
 "hexo-cli@^4.3.2":
   "integrity" "sha512-druJeBgLpG9ncDS5AhBHdAXk0G4CFj8Qes09pApyZ6bR+nJW1JYiDMuilhudaKDdq+1l49jWXVTidkcb7p0Jbw=="
   "resolved" "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.2.tgz"
