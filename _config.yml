@@ -109,7 +109,7 @@ deploy:
 analytics:
     google_analytics:
         enable: true
-        measurement_id: G-2QTK07XY87
+        measurement_id: G-80VZ4M9L90
     microsoft_clarity:
         enable: true
         project_id: o96ok51v3u
