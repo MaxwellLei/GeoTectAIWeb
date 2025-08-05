@@ -49,4 +49,4 @@ The software is divided into: **Home, Prediction Module, Settings Module**.
 Since this software is entirely developed in `Python`, I don't need to call deep learning code via third parties, making the project code relatively straightforward.
 
 # Screenshots
-![sc](https://github.com/MaxwellLei/GeoTectAI_CNN/blob/main/GeoTectAI_sc/fig1.jpg)
+![sc](https://raw.githubusercontent.com/MaxwellLei/GeoTectAI_CNN/main/GeoTectAI_sc/fig1.jpg)
